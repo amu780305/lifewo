@@ -1,0 +1,17 @@
+server:
+  #端口号
+  port: 8080
+spring:
+  profiles:
+    active: ${env:dev}
+  application:
+    name: ${rootArtifactId}
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${nacos-server-addr:nacos-dev.wowoohr.net:80}
+        namespace: ${nacos-namespace:6c1f58fe-c2f7-488d-91c4-53193ecc2649}
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        namespace: ${spring.cloud.nacos.discovery.namespace}
+        file-extension: yml

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.wowoohr.common:core-common-start-swagger:3.1.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/wowoohr/common/core-common-start-swagger/3.1.1/core-common-start-swagger-3.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/wowoohr/common/core-common-start-swagger/3.1.1/core-common-start-swagger-3.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/wowoohr/common/core-common-start-swagger/3.1.1/core-common-start-swagger-3.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
